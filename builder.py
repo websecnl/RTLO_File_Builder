@@ -12,7 +12,7 @@ print("""############################################
 print('')
 print('Note: this script needs Administrator privilidges.')
 
-exploit = u"‮" #\xe2
+exploit = u"‮"
 
 def creator():
     spoof = raw_input('ENTER EXTENTION TO SPOOF (Example: png): ')[::-1]
