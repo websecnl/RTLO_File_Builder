@@ -4,14 +4,15 @@
 
 import os
 
-print('############################################')
-print('## Right-To-Left-Override File Generator  ##')
-print('##     Unicode File Extention Spoofer     ##')
-print('############################################')
+print("""############################################
+## Right-To-Left-Override File Generator  ##
+##     Unicode File Extention Spoofer     ##
+############################################""")
+
 print('')
 print('Note: this script needs Administrator privilidges.')
 
-exploit = u"‮"
+exploit = u"‮" #\xe2
 
 def creator():
     spoof = raw_input('ENTER EXTENTION TO SPOOF (Example: png): ')[::-1]
@@ -33,7 +34,7 @@ def editor():
     print('[+] File RTLO-Spoofed')
 
 print('1. Create new file\n'
-      '2. Spoof existing file\n')
+                    '2. Spoof existing file\n')
 print("")
 options = raw_input('Select your choice: ')
 print("")
