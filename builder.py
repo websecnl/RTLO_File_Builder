@@ -33,6 +33,7 @@ def editor():
     os.rename(path + ext, path + exploit + spoofer + ext)
     print('[+] File RTLO-Spoofed')
 
+print("")
 print('1. Create new file\n'
       '2. Spoof existing file\n')
 print("")
