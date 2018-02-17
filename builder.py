@@ -4,11 +4,11 @@
 
 import os
 
-print("""############################################
-## Right-To-Left-Override File Generator  ##
-##     Unicode File Extention Spoofer     ##
-############################################""")
-
+banner = ("############################################\n"
+          "## Right-To-Left-Override File Generator  ##\n"
+          "##     Unicode File Extention Spoofer     ##\n"
+          "############################################")
+print(banner)
 print('')
 print('Note: this script needs Administrator privilidges.')
 
