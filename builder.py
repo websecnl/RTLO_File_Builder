@@ -34,7 +34,7 @@ def editor():
     print('[+] File RTLO-Spoofed')
 
 print('1. Create new file\n'
-                    '2. Spoof existing file\n')
+      '2. Spoof existing file\n')
 print("")
 options = raw_input('Select your choice: ')
 print("")
